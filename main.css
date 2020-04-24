@@ -22,6 +22,21 @@ html {
 
 h2 {
   margin-top: 1.7em;
+  margin-bottom: 0.8em;
+  font-size: xx-large;
+}
+
+h4 {
+  font-size: 1.1rem;
+  margin-bottom: 1em;
+}
+
+b {
+  color: #4c4c4c;
+}
+
+p {
+  margin: 0.5em 0;
 }
 
 a {
@@ -97,6 +112,10 @@ li:before {
   margin: 0 0.5em;
 }
 
+.page-content {
+  padding: 1.5rem;
+}
+
 .introduction {
   padding: 0 1em;
 }
@@ -110,7 +129,9 @@ li:before {
   justify-content: space-between;
 }
 
-.dated-header .header-date {
-  font-size: 1rem;
+.header-date {
+  font-size: 0.9rem;
   align-self: center;
+  color: #4c4c4c;
+  font-style: italic;
 }
