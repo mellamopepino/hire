@@ -13,7 +13,7 @@ body {
 
 html {
   font-family: "Inconsolata", "monospace";
-  font-size: 20px;
+  font-size: 18px;
 }
 
 * {
@@ -43,9 +43,13 @@ li:before {
   content: "-"
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 800px) {
   body {
     padding: 0.4rem;
+  }
+
+  .my-photo {
+    display: none;
   }
 }
 
@@ -60,15 +64,16 @@ li:before {
   align-items: center;
   border: 1px dashed #0c99cf;
   background-color: #b2dcec;
+  padding-left: 0.5em;
 }
 
 .my-name {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .my-photo {
   /* align-self: stretch; */
-  max-height: 6rem;
+  max-height: 7rem;
 }
 
 .inline-icon {
@@ -77,11 +82,6 @@ li:before {
   max-height: 1rem;
   max-width: 1rem;
   vertical-align: center;
-}
-
-.header-underline {
-  font-size: 2rem;
-  overflow: hidden;
 }
 
 .links {
