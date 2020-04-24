@@ -6,6 +6,9 @@ body {
   color: #272727;
   background: 0 0;
   background-color: #f0f0f0;
+  max-width: 800px;
+  margin: auto;
+  padding: 60px 30px;
 }
 
 html {
@@ -19,10 +22,6 @@ html {
 
 h2 {
   margin-top: 1.7em;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 0;
 }
 
 a {
@@ -44,14 +43,8 @@ li:before {
   content: "-"
 }
 
-.wrapper {
-  max-width: 800px;
-  margin: auto;
-  padding: 60px 30px;
-}
-
 @media screen and (max-width: 720px) {
-  .wrapper {
+  body {
     padding: 0.4rem;
   }
 }
@@ -83,7 +76,7 @@ li:before {
   margin-right: 0.5em;
   max-height: 1rem;
   max-width: 1rem;
-  vertical-align: bottom;
+  vertical-align: center;
 }
 
 .header-underline {
@@ -91,24 +84,17 @@ li:before {
   overflow: hidden;
 }
 
-.links-wrapper {
-  display: flex;
-  justify-content: space-around;
-  padding: 0 1rem;
-  width: calc(100% - 2rem);
-}
-
 .links {
-  margin: auto;
-  display: inline-block;
+  margin: 2em 0 1em;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-.links a:after {
-  content: " |"
-}
-
-.links a:first-child:before {
-  content: "| "
+.links a {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 0.5em;
 }
 
 .introduction {
