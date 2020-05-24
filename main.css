@@ -29,6 +29,7 @@ h2 {
 h4 {
   font-size: 1.1rem;
   margin-bottom: 1em;
+  border-bottom: 2px dashed #bfa9b6;
 }
 
 b {
@@ -121,7 +122,12 @@ li:before {
 }
 
 .section-content {
-  padding-left: 1em;
+  padding-left: 2em;
+  padding-bottom: 1em;
+}
+
+.interests p {
+  margin: 1em 0;
 }
 
 .dated-header {
