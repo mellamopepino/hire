@@ -5,10 +5,10 @@
 body {
   color: #272727;
   background: 0 0;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   max-width: 800px;
   margin: auto;
-  padding: 60px 30px;
+  padding: 0px 30px;
 }
 
 html {
@@ -70,8 +70,8 @@ li:before {
 }
 
 .main-header-wrapper {
-  border-left: 1.5rem solid #eef99b;
-  border-right: 1.5rem solid #eef99b;
+  border-left: 1.5rem solid #faffa1;
+  border-right: 1.5rem solid #faffa1;
 }
 
 .main-header {
@@ -81,15 +81,22 @@ li:before {
   border: 1px dashed #0c99cf;
   background-color: #b2dcec;
   padding-left: 0.5em;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
 }
 
 .my-name {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
+  margin-right: 0.8rem;
+  display: -webkit-box;
+  -webkit-box-sizing: unset;
 }
 
 .my-photo {
   /* align-self: stretch; */
   max-height: 7rem;
+  display: -webkit-box;
 }
 
 .inline-icon {
@@ -105,6 +112,8 @@ li:before {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  display: -webkit-box;
+  -webkit-box-pack: center;
 }
 
 .links a {
